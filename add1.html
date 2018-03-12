@@ -1,0 +1,88 @@
+<html>
+    <style>
+            input[type=submit]:hover {
+    background-color: #45a049;
+                }
+        input[type=submit]{
+            width:100%;
+            background-color:4CAF50;
+            color:white;
+            padding:14px 20px;
+            margin:8px 0px;
+            border:none;
+            border-radius:4px;
+            cursor:pointer;
+        }
+        div{border-radius:px;
+        background-color:#f2f2f2;
+        padding:4px;}
+        input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+   input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+     input[type=varchar] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+     input[type=int] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+        </style>
+<body>
+<div>    
+ <form action="add.php" method="POST">
+Title: <input type="text" name="t" required>
+<br>
+Artist: <input type="text" name="a" required>
+<br>
+Year:<input type="varchar" name="y" required>
+<br>
+Company: <input type="text" name="c" required>
+<br>
+Cost: <input type="int" name="co" required>
+<br>
+Category: <input type="text" name="ca" required>
+<br>
+<input value="add cd" type="submit">
+</form>
+ <form action="admin1.php" method="POST">
+<input value="Back" type="submit">
+</form>
+</div>
+</body>
+</html>
